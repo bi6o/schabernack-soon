@@ -478,7 +478,7 @@ body::after {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   h1 {
     font-size: 2rem;
   }
@@ -489,15 +489,15 @@ body::after {
     align-items: center;
   }
   .social-button {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
   }
   .social-button:first-child {
     margin-top: 60px;
   }
   .socialmedia-button {
-    width: 75px; /* Or whatever */
-    height: 75px; /* Or whatever */
+    width: 100px; /* Or whatever */
+    height: 100px; /* Or whatever */
     margin: auto; /* Magic! */
   }
   #sc-link {
