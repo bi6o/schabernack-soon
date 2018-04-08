@@ -5,7 +5,12 @@
   padding-bottom: 7.5rem;
   padding-top: 7.5rem;
 }
-
+#home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .thumbnail {
   left: 50%;
   position: absolute;
@@ -485,6 +490,7 @@ body::after {
   .social-button {
     margin-top: 60px;
   }
+
   .socialmedia-button {
     width: 100px; /* Or whatever */
     height: 100px; /* Or whatever */
