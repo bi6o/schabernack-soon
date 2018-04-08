@@ -482,17 +482,7 @@ body::after {
   h1 {
     font-size: 2rem;
   }
-  .buttons-container {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-  }
   .social-button {
-    width: 150px;
-    height: 150px;
-  }
-  .social-button:first-child {
     margin-top: 60px;
   }
   .socialmedia-button {
