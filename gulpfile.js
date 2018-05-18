@@ -1,3 +1,4 @@
+// gulpfile.js
 var gulp = require('gulp');
 var webserver = require('gulp-webserver');
 
@@ -5,11 +6,10 @@ gulp.task('webserver', function() {
   gulp.src('./').pipe(
     webserver({
       livereload: true,
-      directoryListing: true,
-      open: true,
-      port: 5000
+      directoryListing: false,
+      open: true
     })
   );
 });
 
-gulp.task('dev', ['server', 'watch']);
+gulp.task('default', ['webserver']);
